@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>X-coaching — 8 Week Transformation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">X-coaching</div>
+        <nav class="nav">
+          <a href="#testimonials">Testimonials</a>
+          <a href="#signup" class="btn-outline">Join</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-left">
+            <h1 class="title">8 Week Transformation</h1>
+            <p class="subtitle">A focused, evidence-based challenge to build habits, strength, and confidence.</p>
+
+            <div class="vsl">
+              <div class="video-wrap">
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="VSL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+
+          <aside class="hero-right">
+            <div class="cta-card">
+              <h2>Ready to start?</h2>
+              <p>Sign up for the 8 Week Transformation and get a step-by-step plan, coaching support, and group accountability.</p>
+              <form id="signup" class="signup-form" action="#" onsubmit="return signupHandler(event)">
+                <label>
+                  <span class="label-text">Full name</span>
+                  <input type="text" name="name" required />
+                </label>
+                <label>
+                  <span class="label-text">Email</span>
+                  <input type="email" name="email" required />
+                </label>
+                <button type="submit" class="btn-primary">Sign up for the challenge</button>
+                <p class="small">No spam — just program details and start instructions.</p>
+              </form>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="testimonials" class="testimonials">
+        <div class="container">
+          <h2 class="section-title">Results people love</h2>
+          <p class="section-sub">Wins and benefits from the 8 Week Transformation</p>
+
+          <div class="test-grid">
+            <blockquote class="test-card">
+              <p>"Lost 12kg, gained confidence and energy. The weekly check-ins kept me consistent."</p>
+              <footer>— Alex, 8-week graduate</footer>
+            </blockquote>
+
+            <blockquote class="test-card">
+              <p>"Simple, structured workouts + nutrition coaching. I finally built a habit that stuck."</p>
+              <footer>— Priya, 8-week graduate</footer>
+            </blockquote>
+
+            <blockquote class="test-card">
+              <p>"Accountability and community pushed me further than solo attempts. Amazing support."</p>
+              <footer>— Marcus, 8-week graduate</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta">
+        <div class="container final-inner">
+          <h2>Join the 8 Week Transformation</h2>
+          <p>Spaces limited — secure your spot and start your transformation.</p>
+          <a class="btn-primary large" href="#signup" onclick="document.getElementById('signup').scrollIntoView({behavior:'smooth'})">Sign up now</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© X-coaching • All rights reserved</div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
